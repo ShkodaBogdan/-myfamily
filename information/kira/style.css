@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+body{
+    font-family: 'Montserrat-Regular';
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto; 
+    padding-top: 82px;
+    padding-bottom: 70px;
+    padding-right: 60px;
+    
+    }
+    .menu ul a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    
+    }
+    .menu{
+        display: flex;
+        
+    }
+.menu-all{
+    background-color:  rgba(139, 13, 139, 0.532);
+}
+.menu ul li a:link a:visited{
+    color: blue;
+
+}
+.menu ul li a:hover{
+    color: rgb(47, 255, 0);
+
+}
+.menu-emblema{
+    padding-top: 10px;
+}
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background-color:rgba(212, 27, 212, 0.532);
+  
+}
+.all-text{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.left-information{
+    width: 30%;
+    padding-left: 180px;
+    padding-top: 70px;
+    padding-right: 30px;
+}
+.heading-information{
+    padding-top: 150px;
+    font-size: 28px;
+}
+.heading-work{
+    padding-top: 30px;
+    font-size: 28px;
+}
+.text-work{
+   
+  
+    padding-bottom: 100px;
+}
+.left-hobby{
+    width: 30%;
+    padding-top: 65px;
+    padding-right: 20px;
+
+}
+.all-hobby{
+    display: flex;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.parent-text{
+    display: flex;
+}
+.left-text{
+    width: 30%;
+    padding-left: 150px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+.heading-hobby{
+    padding-top: 100px;
+    font-size: 28px;
+   padding-bottom: 50px;
+
+}
+.parent-heading{
+    padding-top: 100px;
+    font-size: 28px;
+   padding-bottom: 50px;
+
+}
+.hobby-all{
+    background-color: #F8F8F8;
+}
+.work{
+    background-color:  #F8F8F8;
+}
+.heading-work{
+    padding-top: 30px;
+    font-size: 28px;
+}
+.parent-heading{
+    padding-top: 100px;
+    font-size: 28px;
+   padding-bottom: 50px;
+
+}
+.parent-text{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.all-hobby{
+    display: flex;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+.left-hobby{
+    width: 30%;
+    padding-top: 15px;
+    padding-right: 20px;
+
+}
+.heading-hobby{
+    padding-top: 100px;
+    font-size: 28px;
+   padding-bottom: 50px;
+
+}
+.hobby-all{
+    background-color: #F8F8F8;
+}
+.hab{
+    padding-bottom: 100px;
+}
+.hab ul li a:hover{
+    color: blue;
+
+}
+.hab ul li a:link a:visited{
+    color: red;
+
+}
+.hab ul{
+    list-style-type: none;
+}
+.hab a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    
+
+
+
+}

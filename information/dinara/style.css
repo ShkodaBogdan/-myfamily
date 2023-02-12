@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+body{
+    font-family: 'Montserrat-Regular';
+    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu ul{
+display: flex;
+list-style-type: none;
+justify-content: space-between;
+width: 600px;
+margin: 0 auto; 
+padding-top: 72px;
+padding-bottom: 70px;
+padding-right: 60px;
+
+}
+.menu ul a {
+color: black;
+text-decoration: none;
+text-align: center;
+font-weight: 600;
+
+}
+.menu{
+    display: flex;
+ 
+    
+}
+.header{
+    background-color: rgb(211, 211, 211);
+}
+.information{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.left-information{
+    width: 30%;
+    padding-left: 170px;
+    padding-top: 45px;
+}
+.right-information{
+    padding-left: 50px;
+
+}
+.heading-information{
+    padding-top: 100px;
+    font-size: 28px;
+
+}
+.menu ul li a:link a:visited{
+    color: blue;
+
+}
+.menu ul li a:hover{
+    color: rgb(158, 68, 68);
+
+}
+.menu-emblema{
+    padding-top: 10px;
+}
+.work-heading{
+    padding-top: 100px;
+    font-size: 28px;
+
+
+}
+.work-information{
+    padding-top: 50px;
+}
+
+.member-heading{
+    padding-top: 100px;
+    font-size: 28px;
+
+}
+.parent{
+    padding-top: 50px;
+}
+.hobby-heading{
+    padding-top: 100px;
+    font-size: 28px;
+
+}
+.hobby-text{
+    padding-top: 50px;
+    
+}
+.hobby-img{
+    padding-top: 35px;
+}
+.parent-img{
+    padding-top: 35px;
+    
+}
+.hab ul{
+    list-style-type: none;
+}
+.hab a{
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    
+
+
+
+}
+.end-heading{
+    padding-top: 100px;
+}
+.end-all{
+    background-color: #F8F8F8;
+}
+.hab{
+    padding-bottom: 100px;
+}
+.topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background-color: rgb(85, 255, 85);
+  
+}
+.hab ul li a:hover{
+    color: blue;
+
+}
+.hab ul li a:link a:visited{
+    color: red;
+
+}
+.topbutton a{
+    font-weight: 800;
+    text-decoration: none;
+}
+.footeryes ul{
+    list-style-type: none;
+    
+
+}
+.footeryes a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  
+
+}
+.footeryes{
+     padding-left: 50%;
+     padding-bottom: 50px;
+     display: flex;
+}
+.footeryes ul li a:hover{
+    color: green;
+
+}
+.footeryes ul li a:link a:visited{
+    color: red;
+
+}

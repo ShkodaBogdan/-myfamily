@@ -1,0 +1,111 @@
+@font-face{
+    font-family:'NunitoSans-Regular' ;
+    src: url("fonts/NunitoSans-Regular.ttf");
+}
+body{
+    font-family: 'NunitoSans-Regular';
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+    
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 650px;
+    margin: 0 auto; 
+}
+.menu ul a {
+    color: black;
+    text-decoration: none;
+}
+.information{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.left-taxt{
+    width: 40%;
+    padding-right: 200px;
+}
+.right-text{
+    width: 40%;
+}
+.family-photo{
+    padding-top: 50px;
+}
+.big-menu{
+    background-color: #F8F8F8;
+}
+.h1-family{
+    padding-top: 40px;
+}
+.rating-area {
+	overflow: hidden;
+	width: 260px;
+	margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+.otziv-area a{
+    text-decoration: none;
+    color: #c60;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+
+}
+.end{
+    background-color: #F8F8F8;
+}
+.end-heading{
+    padding-top: 100px;
+}
+.menu ul li a:hover{
+    color: purple;
+
+}
+.menu ul li a:link a:visited{
+    color: red;
+
+}

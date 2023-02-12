@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  
+    <title>feedback</title>
+</head>
+ <body>
+    <form id="form" action="/feedback/processing.php" enctype="multipart/form-data" novalidate>
+        ...
+      </form>
+      <link rel="stylesheet" href="/feedback/css/form-processing.css">
+<script src="/feedback/js/form-processing.js"></script>
+<!-- Сообщение об успешной отправки формы -->
+<div class="form-success form-success_hide">
+    <div class="form-success__message">Форма успешно отправлена. Нажмите <button type="button" class="form-success__btn">здесь</button>, если нужно отправить ещё одну форму.</div>
+  </div>
+  <!-- Капча -->
+<div class="form-group form-captcha">
+    ...
+  </div>
+ 
+</body>
+</html>
